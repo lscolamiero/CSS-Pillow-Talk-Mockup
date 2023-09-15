@@ -1,0 +1,61 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header, footer {
+    outline: 4px solid red;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div, header > p {
+    margin: 25px;
+}
+
+aside {
+    outline: 4px solid green;
+    flex-grow: 1;
+}
+
+main {
+    outline: 4px solid orange;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-container img {
+    width: 550px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-container img {
+
+}
